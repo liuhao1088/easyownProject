@@ -11,17 +11,63 @@
     </view>
   </view>
 
+  <view class="tag_maxdiv" style="margin-top: 60rpx;">
+    <view class="video_div">
+      <video style="width: 100%;height: 100%;" id="myVideo"
+        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8CM30%E5%A4%96%E8%A7%822.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1602484297;33138484297&q-key-time=1602484297;33138484297&q-header-list=&q-url-param-list=&q-signature=60d3e527859ce8597c4d93e4a14306b486dc0dfb"
+        binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
+        picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+        bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
 
+    </view>
+
+  </view>
   
 
+  <view class="tag_maxdiv" style="margin-top: 60rpx;">
+    <view class="img_div" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img11.360buyimg.com/ddimg/jfs/t1/132661/11/12118/143871/5f83f68fE4790534b/030efa483da12289.png">
+      </image>
+    </view>
+
+
+    <view class="img_div" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/139394/3/10650/161521/5f83f6bbEb36e67e1/6703a86ca722cf45.png">
+      </image>
+    </view>
+
+    <view class="img_div" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src=" https://img10.360buyimg.com/ddimg/jfs/t1/154113/9/1995/124369/5f83f6d9E0f31d2a2/bb168a49b24f71fb.png">
+      </image>
+    </view>
+
+    <view class="img_div" bindtap="">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src=" https://img14.360buyimg.com/ddimg/jfs/t1/152217/19/2017/208075/5f83f6faEee16f7b1/2a19117114a89a75.png">
+      </image>
+    </view>
+   
+  </view>
+
+  <view class="tag_maxdiv" style="margin-top: 40rpx;padding-bottom: 40rpx;">
+    <view class="logo_div">
+        深圳市鑫华锋科技有限公司
+    </view>
+    <view class="logo">
+      Shenzhen Xinhuafeng Technology Co., Ltd.
+    </view>
+  </view>
   
 
-  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+  <!-- <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
     <view class="yxzc_div">
       <image mode="widthFix" style="width: 100%;height: 100%;"
         src="https://img10.360buyimg.com/ddimg/jfs/t1/151929/33/1179/62216/5f745004E8536a0bd/9aa0a6dac7ee24d9.jpg">
       </image>
     </view>
-  </view>
+  </view> -->
 
 </view>

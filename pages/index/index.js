@@ -6,9 +6,9 @@ Page({
    */
   data: {
     imgUrl:[
-      'https://img10.360buyimg.com/ddimg/jfs/t1/117312/20/18925/815432/5f73e111E35d9bf6e/ec454d11938054b2.png',
-      'https://img13.360buyimg.com/ddimg/jfs/t1/111639/2/19082/393744/5f73e127E304379b2/8d2e2ef8ce957264.jpg',
-      'https://img10.360buyimg.com/ddimg/jfs/t1/118444/33/19054/417237/5f73e147E3e3eb06b/cddb13d6d9d8d851.jpg'
+      'https://img11.360buyimg.com/ddimg/jfs/t1/141106/6/10567/458756/5f83f33bEe17ec49e/0f7c2eb5d48f2da1.png',
+      'https://img11.360buyimg.com/ddimg/jfs/t1/134409/33/12264/573162/5f83f3f3Eba2e86e1/1db56261b23a5887.png',
+      'https://img11.360buyimg.com/ddimg/jfs/t1/155527/31/2019/911490/5f83f40cE99a615d8/b4fb5de2c80c17fe.png'
     ],
      active: 0,
      indicatorDots: true,
