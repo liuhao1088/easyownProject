@@ -1,6 +1,8 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/detailsamTwo/detailsamTwo",
+    "pages/hdRecorderSeries/hdRecorderSeries"
   ],
   "window":{
     "backgroundTextStyle":"light",
