@@ -1,0 +1,14 @@
+.tag_maxdiv {
+  width: 90%;
+  float: left;
+}
+
+.lbt_div {
+  width: 100%;
+  height: 550rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
