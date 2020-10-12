@@ -1,0 +1,10 @@
+/* pages/detailsamSixtysix/detailsamSixtysix.wxss */
+.tag_maxdiv {
+  width: 100%;
+  float: left;
+}
+
+image{
+  height: 100%;
+  width: 100%;
+}

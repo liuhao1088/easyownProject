@@ -2,6 +2,11 @@
   "pages":[
     "pages/index/index",
     "pages/detailsamTwo/detailsamTwo",
+    "pages/detailsamEleven/detailsamEleven",
+    "pages/detailsamThirty/detailsamThirty",
+    "pages/detailsamSixtysix/detailsamSixtysix",
+    "pages/detailsamEightyeight/detailsamEightyeight",
+    "pages/smartStreamingSeries/smartStreamingSeries",
     "pages/hdRecorderSeries/hdRecorderSeries"
   ],
   "window":{
