@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    top:"22px"
   },
   detailsamTwodj:function(e){
     wx.navigateTo({
@@ -17,7 +17,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var windowHeight = wx.getSystemInfoSync().windowHeight;
+    console.log(windowHeight);
+    if(windowHeight>800){
+      this.setData({
+        top: "66px"
+      })
+    }else{
+      this.setData({
+        top:"22px"
+      })
+    }
   },
 
   /**
