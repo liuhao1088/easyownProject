@@ -32,6 +32,11 @@ Page({
       url: "../hiddenRecorderSeries/hiddenRecorderSeries"
     })
   },
+  truckReconrderSeriesdj:function(e){
+    wx.navigateTo({
+      url: "../truckReconrderSeries/truckReconrderSeries"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

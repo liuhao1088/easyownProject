@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/detailsagNinetyeight/detailsagNinetyeight",
+    "pages/detailsagNinetynine/detailsagNinetynine",
+    "pages/detailsagNinetys/detailsagNinetys",
     "pages/detailsamSix/detailsamSix",
     "pages/detailsamFives/detailsamFives",
     "pages/detailsaeOne/detailsaeOne",
@@ -11,6 +14,7 @@
     "pages/detailsamEightyeight/detailsamEightyeight",
     "pages/smartStreamingSeries/smartStreamingSeries",
     "pages/hiddenRecorderSeries/hiddenRecorderSeries",
+    "pages/truckReconrderSeries/truckReconrderSeries",
     "pages/hdRecorderSeries/hdRecorderSeries"
   ],
   "window":{
