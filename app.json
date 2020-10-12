@@ -1,12 +1,16 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/detailsamSix/detailsamSix",
+    "pages/detailsamFives/detailsamFives",
+    "pages/detailsaeOne/detailsaeOne",
     "pages/detailsamTwo/detailsamTwo",
     "pages/detailsamEleven/detailsamEleven",
     "pages/detailsamThirty/detailsamThirty",
     "pages/detailsamSixtysix/detailsamSixtysix",
     "pages/detailsamEightyeight/detailsamEightyeight",
     "pages/smartStreamingSeries/smartStreamingSeries",
+    "pages/hiddenRecorderSeries/hiddenRecorderSeries",
     "pages/hdRecorderSeries/hdRecorderSeries"
   ],
   "window":{
