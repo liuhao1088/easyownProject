@@ -1,4 +1,4 @@
-// pages/hiddenRecorderSeries/hiddenRecorderSeries.js
+// pages/detailsaeThree/detailsaeThree.js
 Page({
 
   /**
@@ -7,31 +7,7 @@ Page({
   data: {
 
   },
-  detailsamSixdj:function(e){
-    wx.navigateTo({
-      url: "../detailsamSix/detailsamSix"
-    })
-  },
-  detailsamFivesdj:function(e){
-    wx.navigateTo({
-      url: "../detailsamFives/detailsamFives"
-    })
-  },
-  detailsaeOnedj:function(e){
-    wx.navigateTo({
-      url: "../detailsaeOne/detailsaeOne"
-    })
-  },
-  detailsaeTwodj:function(e){
-    wx.navigateTo({
-      url: "../detailsaeTwo/detailsaeTwo"
-    })
-  },
-  detailsaeThreedj:function(e){
-    wx.navigateTo({
-      url: "../detailsaeThree/detailsaeThree"
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -27,6 +27,18 @@
       </image>
     </view>
 
+    <view class="img_div" bindtap="detailsaeTwodj">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/126203/10/15109/93150/5f8a5e80E8beec6e9/34b5fadd8421f5b9.png">
+      </image>
+    </view>
+
+    <view class="img_div" bindtap="detailsaeThreedj">
+      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/125035/9/15096/125750/5f8a5e94E17ac264d/fa44631dda89a394.png">
+      </image>
+    </view>
+
 
 
   </view>

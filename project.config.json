@@ -38,36 +38,31 @@
   "libVersion": "2.13.1",
   "appid": "wxfa7e8568b486d579",
   "projectname": "easyownProject",
+  "cloudfunctionTemplateRoot": "",
+  "watchOptions": {
+    "ignore": []
+  },
   "debugOptions": {
     "hidedInDevtools": []
   },
   "scripts": {},
-  "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
   "condition": {
     "search": {
-      "current": -1,
       "list": []
     },
     "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "current": -1,
       "list": []
     },
     "plugin": {
-      "current": -1,
+      "list": []
+    },
+    "game": {
       "list": []
     },
     "gamePlugin": {
-      "current": -1,
       "list": []
     },
     "miniprogram": {
-      "current": -1,
       "list": []
     }
   }

@@ -2,7 +2,7 @@
   <view class="tag_maxdiv" style="width: 100%;">
     <view class="img">
       <image mode="widthFix"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/140591/38/10432/456832/5f840787Eca71edcc/c42bce4b2ec95091.png">
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/140784/23/11053/703150/5f8a5e3cE86e95991/27899a47e4f28ef0.png">
       </image>
     </view>
   </view>
@@ -15,11 +15,11 @@
       </image>
     </view>
 
-    <view class="img_div" bindtap="detailsagNinetyninedj">
+    <!-- <view class="img_div" bindtap="detailsagNinetyninedj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
         src="https://img11.360buyimg.com/ddimg/jfs/t1/154166/37/2003/171927/5f8407b0Ebcac25b9/b5d5fe6e2ae9f682.png">
       </image>
-    </view>
+    </view> -->
 
     <view class="img_div" bindtap="detailsagNinetysdj">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx;"
