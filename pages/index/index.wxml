@@ -14,7 +14,7 @@
   <view class="tag_maxdiv" style="margin-top: 60rpx;">
     <view class="video_div">
       <video style="width: 100%;height: 100%;" id="myVideo"
-        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8CM30%E5%A4%96%E8%A7%822.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1602484297;33138484297&q-key-time=1602484297;33138484297&q-header-list=&q-url-param-list=&q-signature=60d3e527859ce8597c4d93e4a14306b486dc0dfb"
+        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8CM30.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1603959812;10243873412&q-key-time=1603959812;10243873412&q-header-list=&q-url-param-list=&q-signature=4a0fcdf1e40447756a33e2877f4a08d647927736"
         binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
         picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
         bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
