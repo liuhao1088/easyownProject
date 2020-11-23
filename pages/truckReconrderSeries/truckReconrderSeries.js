@@ -5,22 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    urlList:[
+      'https://img13.360buyimg.com/ddimg/jfs/t1/117028/2/19763/206910/5f84079dE7ad9fe22/b6d61ee4c964ffec.png',
+      'https://img14.360buyimg.com/ddimg/jfs/t1/114897/23/19108/183927/5f8407c1E2ce0e49e/a06fea7086a112d2.png',
+    ]
   },
-  detailsagNinetyeightdj:function(e){
-    wx.navigateTo({
-       url: "../detailsagNinetyeight/detailsagNinetyeight"
-    })
-  },
-  detailsagNinetyninedj:function(e){
-    wx.navigateTo({
-       url: "../detailsagNinetynine/detailsagNinetynine"
-    })
-  },
-  detailsagNinetysdj:function(e){
-    wx.navigateTo({
-       url: "../detailsagNinetys/detailsagNinetys"
-    })
+  toDetaila(event){
+    let id = event.currentTarget.id;
+    if(id === '0'){
+      wx.navigateTo({
+        url: "/pages/detailsagNinetyeight/detailsagNinetyeight"
+      })
+    }else{
+      wx.navigateTo({
+        url: "/pages/detailsagNinetys/detailsagNinetys"
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面加载

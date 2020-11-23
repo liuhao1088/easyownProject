@@ -1,4 +1,39 @@
 /**app.wxss**/
+image{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center; 
+}
+
+.tag_maxdiv {
+  width: 95%;
+  float: left;
+}
+
+.img_div{
+  margin-top: 40rpx;
+}
+
+.logo_div{
+  height: 50rpx;
+  width: 100%;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  
+}
+
+.logo{
+  width: 100%;
+  font-size: 14rpx;
+  text-align: center;
+  color: white;
+  
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -7,4 +42,5 @@
   justify-content: space-between;
   padding: 0;
   box-sizing: border-box;
+  background-color: #0AD08B;
 } 

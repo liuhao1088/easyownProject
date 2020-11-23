@@ -1,73 +1,38 @@
 <view class="container">
-  <view class="tag_maxdiv" style="width:100%;">
-    <view class="lbt_div">
-      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
-        style="height:100%;">
-        <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
-          <image mode="widthFix" src="{{item}}" class="slide-image" />
-        </swiper-item>
+  <view class="lbt_div">
+    <swiper indicator-dots autoplay style="height:100%;">
+      <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
+        <image mode="widthFix" src="{{item}}" />
+      </swiper-item>
 
-      </swiper>
-    </view>
+    </swiper>
+  </view>
+
+  <view class="video_div">
+    <video class="video_nr"
+      src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8CM30.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1603959812;10243873412&q-key-time=1603959812;10243873412&q-header-list=&q-url-param-list=&q-signature=4a0fcdf1e40447756a33e2877f4a08d647927736"
+      object-fit="cover"></video>
   </view>
 
   <view class="tag_maxdiv" style="margin-top: 60rpx;">
-    <view class="video_div">
-      <video style="width: 100%;height: 100%;" id="myVideo"
-        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8CM30.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1603959812;10243873412&q-key-time=1603959812;10243873412&q-header-list=&q-url-param-list=&q-signature=4a0fcdf1e40447756a33e2877f4a08d647927736"
-        binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
-        picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
-        bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
-
+    <view class="img_div" wx:for="{{urlList}}" wx:key="id" id="{{index}}" bindtap="toDetaila">
+      <image mode="widthFix" src="{{item}}"></image>
     </view>
-
-  </view>
-  
-
-  <view class="tag_maxdiv" style="margin-top: 60rpx;">
-    <view class="img_div" bindtap="hdRecorderSeriesdj">
-      <image mode="widthFix" style="border-radius: 12rpx;"
-        src="https://img11.360buyimg.com/ddimg/jfs/t1/132661/11/12118/143871/5f83f68fE4790534b/030efa483da12289.png">
-      </image>
-    </view>
-
-
-    <view class="img_div" bindtap="smartStreamingSeriesdj">
-      <image mode="widthFix" style="border-radius: 12rpx;"
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/139394/3/10650/161521/5f83f6bbEb36e67e1/6703a86ca722cf45.png">
-      </image>
-    </view>
-
-    <view class="img_div" bindtap="hiddenRecorderSeriesdj">
-      <image mode="widthFix" style="border-radius: 12rpx;"
-        src=" https://img10.360buyimg.com/ddimg/jfs/t1/154113/9/1995/124369/5f83f6d9E0f31d2a2/bb168a49b24f71fb.png">
-      </image>
-    </view>
-
-    <view class="img_div" bindtap="truckReconrderSeriesdj">
-      <image mode="widthFix" style="border-radius: 12rpx;"
-        src=" https://img14.360buyimg.com/ddimg/jfs/t1/152217/19/2017/208075/5f83f6faEee16f7b1/2a19117114a89a75.png">
-      </image>
-    </view>
-   
   </view>
 
   <view class="tag_maxdiv" style="margin-top: 40rpx;padding-bottom: 40rpx;">
     <view class="logo_div">
-        深圳市鑫华锋科技有限公司
+      深圳市鑫华锋科技有限公司
     </view>
     <view class="logo">
       Shenzhen Xinhuafeng Technology Co., Ltd.
     </view>
   </view>
-  
 
-  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
-    <view class="yxzc_div">
-      <image mode="widthFix"
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/112063/15/19984/604297/5f85597aEf7a32140/99f25303fa24c5ec.png">
-      </image>
-    </view>
-  </view> 
+  <view class="footer">
+    <image mode="widthFix"
+      src="https://img13.360buyimg.com/ddimg/jfs/t1/112063/15/19984/604297/5f85597aEf7a32140/99f25303fa24c5ec.png">
+    </image>
+  </view>
 
 </view>
