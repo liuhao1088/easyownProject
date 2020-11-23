@@ -1,8 +1,2 @@
 <import src="/template/myTemplate.wxml"></import>
 <template is="detail" data="{{...item}}"></template>
-
-<!-- <view class="container">
-  <image mode="widthFix"
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/154354/9/6903/694739/5fbb2fd0Eb429b5ba/d98db6a6ac7b1699.jpg">
-      </image>
-</view> -->
