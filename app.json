@@ -9,8 +9,6 @@
     "pages/detailsaeOne/detailsaeOne",
     "pages/detailsaeTwo/detailsaeTwo",
     "pages/detailsaeThree/detailsaeThree",
-
-
     "pages/detailsamTwo/detailsamTwo",
     "pages/detailsamEleven/detailsamEleven",
     "pages/detailsamThirty/detailsamThirty",
@@ -26,7 +24,7 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black",
-    "navigationStyle":"default"
+    "navigationStyle": "custom"
   },
   "sitemapLocation": "sitemap.json"
 }
