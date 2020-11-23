@@ -15,6 +15,13 @@ image{
   margin-top: 40rpx;
 }
 
+.content{
+  width: 100%;
+  margin-top: 40rpx;
+  padding-bottom: 40rpx;
+  float: left;
+}
+
 .logo_div{
   height: 50rpx;
   width: 100%;

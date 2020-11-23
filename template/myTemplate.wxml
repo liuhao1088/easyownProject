@@ -4,3 +4,14 @@
     </image>
   </view>
 </template>
+
+<template name="title">
+  <view class="content">
+    <view class="logo_div">
+      深圳市鑫华锋科技有限公司
+    </view>
+    <view class="logo">
+      Shenzhen Xinhuafeng Technology Co., Ltd.
+    </view>
+  </view>
+</template>

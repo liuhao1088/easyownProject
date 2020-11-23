@@ -1,3 +1,4 @@
+<import src="/template/myTemplate.wxml"></import>
 <view class="container">
   <view class="tag_maxdiv" style="width: 100%;">
       <image mode="widthFix"
@@ -12,15 +13,7 @@
     </view>
   </view>
 
-
-  <view class="tag_maxdiv" style="margin-top: 40rpx;padding-bottom: 40rpx;">
-    <view class="logo_div">
-        深圳市鑫华锋科技有限公司
-    </view>
-    <view class="logo">
-      Shenzhen Xinhuafeng Technology Co., Ltd.
-    </view>
-  </view>
+  <template is="title"></template>
 
 
 
