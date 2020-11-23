@@ -1,5 +1,2 @@
-<view class="container">
-  <image mode="widthFix"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/148882/2/12332/1374645/5f9a6f22Eb63c9d9a/1150ef984eff7698.jpg">
-      </image>
-</view>
+<import src="/template/myTemplate.wxml"></import>
+<template is="detail" data="{{...item}}"></template>
