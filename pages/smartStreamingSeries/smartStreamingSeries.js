@@ -6,8 +6,8 @@ Page({
    */
   data: {
     urlList:[
-      'https://img11.360buyimg.com/ddimg/jfs/t1/132778/17/12212/153706/5f83ff6aE2d87b18e/98246c8ef3fc027a.png',
-      'https://img13.360buyimg.com/ddimg/jfs/t1/116210/23/19969/176081/5f83ff92E408e5b62/18ba5811c3677a1d.png',
+      'https://img14.360buyimg.com/ddimg/jfs/t1/136265/36/17125/33980/5fbb8c1eEc31b4c5f/eab2506a91416e35.png',
+      'https://img12.360buyimg.com/ddimg/jfs/t1/123538/23/19753/46970/5fbb8c68Eec1c10ff/3b5c4fd04a11a753.png',
       'https://img11.360buyimg.com/ddimg/jfs/t1/151447/27/2082/157496/5f83ffaaE65b9786d/ab905d76e6b7c60e.png',
       'https://img10.360buyimg.com/ddimg/jfs/t1/143263/39/10358/153933/5f83ffc1Eaafbe7bb/296a06397eb9c527.png',
     ]
