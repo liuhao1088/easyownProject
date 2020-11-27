@@ -6,12 +6,12 @@ Page({
    */
   data: {
     item: {
-      url: 'https://img13.360buyimg.com/ddimg/jfs/t1/143445/12/15397/1175205/5fbb8cedEf502a79a/6cb8f8f678d507c5.jpg'
+      url: 'https://img13.360buyimg.com/ddimg/jfs/t1/141321/40/15784/1185904/5fc0603eE5184979b/8b60e15ac7b5fdcf.jpg'
     },
   },
 
   /**
-   * 生命周期函数--监听页面加载
+   * 生命周期函数--监听页面加载  
    */
   onLoad: function (options) {
 
