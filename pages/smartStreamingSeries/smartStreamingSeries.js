@@ -7,9 +7,8 @@ Page({
   data: {
     urlList:[
       'https://img14.360buyimg.com/ddimg/jfs/t1/136265/36/17125/33980/5fbb8c1eEc31b4c5f/eab2506a91416e35.png',
-      'https://img12.360buyimg.com/ddimg/jfs/t1/123538/23/19753/46970/5fbb8c68Eec1c10ff/3b5c4fd04a11a753.png',
+      'https://img10.360buyimg.com/ddimg/jfs/t1/151844/4/20529/182396/603c89e4E09732d0a/454b5e6af667c3ec.png',
       'https://img11.360buyimg.com/ddimg/jfs/t1/151447/27/2082/157496/5f83ffaaE65b9786d/ab905d76e6b7c60e.png',
-      'https://img10.360buyimg.com/ddimg/jfs/t1/143263/39/10358/153933/5f83ffc1Eaafbe7bb/296a06397eb9c527.png',
     ]
   },
   toDetaila(event){
@@ -20,15 +19,11 @@ Page({
       })
     }else if(id === '1'){
       wx.navigateTo({
-        url: "/pages/detailsamThirty/detailsamThirty"
+        url: "/pages/detailsamSanjiu/detailsamSanjiu"
       })
-    }else if(id === '2'){
+    }else {
       wx.navigateTo({
         url: "/pages/detailsamSixtysix/detailsamSixtysix"
-      })
-    }else{
-      wx.navigateTo({
-        url: "/pages/detailsamEightyeight/detailsamEightyeight"
       })
     }
   },
