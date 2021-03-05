@@ -10,10 +10,12 @@
     "pages/detailsamTwo/detailsamTwo",
     "pages/detailsamEleven/detailsamEleven",
     "pages/detailsamSixtysix/detailsamSixtysix",
+    "pages/detailsamgOne/detailsamgOne",
     "pages/smartStreamingSeries/smartStreamingSeries",
     "pages/hiddenRecorderSeries/hiddenRecorderSeries",
     "pages/truckReconrderSeries/truckReconrderSeries",
-    "pages/hdRecorderSeries/hdRecorderSeries"
+    "pages/hdRecorderSeries/hdRecorderSeries",
+    "pages/usbSeries/usbSeries"
   ],
   "window":{
     "backgroundTextStyle":"light",

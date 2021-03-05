@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width: 100%;">
+      <image mode="widthFix"
+        src="https://img11.360buyimg.com/ddimg/jfs/t1/164351/26/9462/478126/6041caa3E6192efca/2ae31694784e8c58.png">
+      </image>
+  </view>
+
+  <view class="tag_maxdiv" style="margin-top: 60rpx;">
+    <view class="img_div" bindtap="detailsamTwodj">
+      <image mode="widthFix"
+        src="https://img10.360buyimg.com/ddimg/jfs/t1/170197/10/9570/122234/6041a932E2d743a0d/7b6a65fce13c0746.png">
+      </image>
+    </view>
+  </view>
+
+
+  <view class="content" style="margin-top: {{top}};">
+    <view class="logo_div">
+        深圳市鑫华锋科技有限公司
+    </view>
+    <view class="logo">
+      Shenzhen Xinhuafeng Technology Co., Ltd.
+    </view>
+  </view>
+
+
+
+</view>
