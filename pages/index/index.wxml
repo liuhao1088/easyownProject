@@ -11,7 +11,7 @@
 
   <view class="video_div">
     <video class="video_nr"
-      src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8CM30.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1603959812;10243873412&q-key-time=1603959812;10243873412&q-header-list=&q-url-param-list=&q-signature=4a0fcdf1e40447756a33e2877f4a08d647927736"
+      src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E7%A5%9E%E5%B7%9E%E8%A1%8C/%E7%A5%9E%E5%B7%9E%E8%A1%8CG98%E5%A4%96%E8%A7%82.M4V"
       object-fit="cover"></video>
   </view>
 

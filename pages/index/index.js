@@ -7,8 +7,7 @@ Page({
   data: {
     imgUrl:[
       'https://img11.360buyimg.com/ddimg/jfs/t1/141106/6/10567/458756/5f83f33bEe17ec49e/0f7c2eb5d48f2da1.png',
-      'https://img11.360buyimg.com/ddimg/jfs/t1/134409/33/12264/573162/5f83f3f3Eba2e86e1/1db56261b23a5887.png',
-      'https://img11.360buyimg.com/ddimg/jfs/t1/155527/31/2019/911490/5f83f40cE99a615d8/b4fb5de2c80c17fe.png'
+      'https://img12.360buyimg.com/ddimg/jfs/t1/159324/17/10670/198709/6043618dE34b3f6ac/578ed5ef83a80c37.png'
     ],
     urlList:[
       'https://img11.360buyimg.com/ddimg/jfs/t1/132661/11/12118/143871/5f83f68fE4790534b/030efa483da12289.png',
@@ -102,6 +101,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title: "神州行小程序", //分享标题
+      imageUrl: 'https://img12.360buyimg.com/ddimg/jfs/t1/159324/17/10670/198709/6043618dE34b3f6ac/578ed5ef83a80c37.png', //图片路径
+      path: 'pages/index/index'
+    }
   }
 })
