@@ -13,7 +13,7 @@ Page({
     urlList:[
       'https://img11.360buyimg.com/ddimg/jfs/t1/132661/11/12118/143871/5f83f68fE4790534b/030efa483da12289.png',
       'https://img12.360buyimg.com/ddimg/jfs/t1/139394/3/10650/161521/5f83f6bbEb36e67e1/6703a86ca722cf45.png',
-      'https://img10.360buyimg.com/ddimg/jfs/t1/154113/9/1995/124369/5f83f6d9E0f31d2a2/bb168a49b24f71fb.png',
+      'https://img14.360buyimg.com/ddimg/jfs/t1/164522/27/11386/193822/60482bfeE66e0a7ad/da6043ef5ea9ad6c.png',
       'https://img14.360buyimg.com/ddimg/jfs/t1/152217/19/2017/208075/5f83f6faEee16f7b1/2a19117114a89a75.png',
       'https://img13.360buyimg.com/ddimg/jfs/t1/169501/9/9536/125485/6041a86aEcad18dfd/93ae491b82c98682.png'
     ]
